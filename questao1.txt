@@ -1,0 +1,7 @@
+a) A diferença entre interface pública e publicadas é que uma interface públicada tem um maneira característica para se fazer qualquer alteração em seu código, fazendo com que seja necessário a cração de outra interface para que possa ser alterada, se não fizer isso há muitas chances de que na hora da refatoração pode acabar quebrando o código em si. Diferente da interface pública que pode ser alterada já que os seus métodos podem ser modificados sempre que quiser ou for preciso.
+
+b) A "Cirurgia com rifle" é quando uma mudança altera diversas classes e a "Mudanças divergentes" é quando é necessário que haja várias mudanças em vários locais diferentes ao invés de só um.
+
+c) Falso, pois a refatoração não traz, necessariamente, melhoria no quesito performance e sim uma melhora na estrututa do código em si.
+
+d) Para garantir o sucesso basta fazer testes, porque eles que vão ver se há uma mudança do comportamento do código em si da hora da refatoração, pois a refatoração só modifica a estrututa e não o seu comportamento.
